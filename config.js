@@ -1,38 +1,43 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  url: 'https://matthewmcateer.me',
+  title: 'matthewmcateer.me',
+  subtitle: 'Machine Learning Engineer at UnifyID. Former aging researcher. I write about about probabilistic programming, machine learning, biotech, distributed systems, dogs, and more.',
+  copyright: '© Matthew McAteer 2019',
+  postsPerPage: 5,
+  googleAnalyticsId: 'UA-102946688-1',
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'About',
+      path: '/about/'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      label: 'Portfolio',
+      path: '/portfolio/'
+    },
+    {
+      label: 'Publications',
+      path: '/publications/'
+    },
+    {
+      label: 'Bookshelf',
+      path: '/bookshelf/'
+    },
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Matthew McAteer',
+    photo: '/photo.png',
+    photoLarge: '/photo-large.png',
+    bio: 'Machine Learning Engineer at UnifyID. Former aging researcher. I write about about probabilistic programming, machine learning, biotech, distributed systems, dogs, and more.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'matthewmcateer0@gmail.com',
+      twitter: 'MatthewMcateer0',
+      github: 'matthew-mcateer',
     }
   }
 };
