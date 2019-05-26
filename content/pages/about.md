@@ -4,7 +4,7 @@ template: "page"
 slug: "/about"
 ---
 
-Hi, I'm Matt, a machine learning engineer and data scientist who loves finding solutions to problems of data analysis (which turns out to be most problems). I am applying the skills I gained from years in genomics research and neurology research to private machine learning and automated data science tools. In my spare time, I am involved in the DIY synthetic biology movement, and I write scripts for algorithmic trading and multi-agent game-playing bots.
+Hi, I'm Matt, a machine learning engineer who loves finding solutions to problems of data analysis (which turns out to be most problems). I am applying the skills I gained from years in genomics research and neurology research to private machine learning and automated data science tools. In my spare time, I am involved in the DIY synthetic biology movement, and I write scripts for algorithmic trading and multi-agent game-playing bots.
 
 On the practical front, I am a focused, results-oriented, and enthusiastic person. Being an active member of the Cambridge-area biohacker community, hackathon teams, as well as numerous research groups at Brown University, MIT, and Harvard Medical School, imbued the importance of working well with others. Team cohesiveness is critical to the success of any company or research group. 
 
