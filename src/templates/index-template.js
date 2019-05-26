@@ -9,10 +9,10 @@ import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import MovableSidebarContent from '../components/MovableSidebarContent';
 
-type Props = {|
-  +data: Object,
-  +pageContext: Object,
-|};
+type Props = {
+  data: Object,
+  pageContext: Object
+};
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = data.site.siteMetadata;
