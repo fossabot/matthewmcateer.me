@@ -6,6 +6,7 @@ const postCssPlugins = require('./postcss-config.js');
 module.exports = {
   siteMetadata: {
     url: siteConfig.url,
+    siteUrl: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
@@ -91,9 +92,10 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-code-headers',
           {
             resolve: 'gatsby-remark-images',
-            options: { maxWidth: 960 }
+            options: { maxWidth: 700, showCaptions: true, linkImagesToOriginal: false },
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
@@ -129,9 +131,6 @@ module.exports = {
         trackingIds: [
           siteConfig.googleAnalyticsId,
         ],
-        gtagConfig: {
-          optimize_id: 'GTM-KVD4JL9',
-        },
         pluginConfig: {
           head: true,
         },
@@ -144,7 +143,7 @@ module.exports = {
           {
             site {
               siteMetadata {
-                url
+                siteUrl
               }
             }
             allSitePage(
@@ -162,7 +161,7 @@ module.exports = {
         `,
         output: '/sitemap.xml',
         serialize: ({ site, allSitePage }) => allSitePage.edges.map(edge => ({
-          url: site.siteMetadata.url + edge.node.path,
+          url: site.siteMetadata.siteUrl + edge.node.path,
           changefreq: 'daily',
           priority: edge.node.path === '/' ? 1.0 : 0.7,
         }))
@@ -192,5 +191,6 @@ module.exports = {
         }
       }
     },
+    'gatsby-plugin-flow',
   ]
 };
