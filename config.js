@@ -6,7 +6,7 @@ module.exports = {
   subtitle: 'Machine Learning Engineer in San Francisco. I blog about web development, machine learning, programming, and more.',
   copyright: '© Matthew McAteer 2019',
   postsPerPage: 8,
-  googleAnalyticsId: 'UA-58664433-1',
+  googleAnalyticsId: 'UA-102946688-1',
   menu: [
     {
       label: 'Blog',
