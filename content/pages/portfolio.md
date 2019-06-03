@@ -41,4 +41,4 @@ Miscellaneous Side-Projects:
 - [BTC Price predictor](https://github.com/matthew-mcateer/BTCpredictor)
 - [MEG Data Classifier](https://github.com/matthew-mcateer/MEG_Data_Classifier)
 
-The best way to reach me is at [matthewmcateer0@gmail.com](mailto:matthewmcateer0@gmail.com).
+The best way to reach me is at [contact@matthewmcateer.me](mailto:contact@matthewmcateer.me).
