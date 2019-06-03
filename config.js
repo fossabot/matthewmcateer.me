@@ -35,7 +35,7 @@ module.exports = {
     photoLarge: '/photo-large.png',
     bio: 'Machine Learning Engineer in San Francisco. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, <a href="/tag/programming/">programming</a>, and <a href="/tags/">more</a>.',
     contacts: {
-      email: 'matthewmcateer0@gmail.com',
+      email: 'contact@matthewmcateer.me',
       twitter: 'matthewmcateer0',
       github: 'matthew-mcateer',
       rss: '/rss.xml',
