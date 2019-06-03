@@ -515,4 +515,4 @@ Since the books I've read lack any overarching order to them, so does this list 
 505.  [**Rocket Fuel: The One Essential Combination That Will Get You More of What You Want from Your Business** by Gino Wickman and Mark C. Winters](https://www.amazon.com/Rocket-Fuel-Essential-Combination-Business/dp/1941631150)
 
 
-If you have any other recommendartions, [let me know.](mailto:matthewmcateer0@gmail.com).
+If you have any other recommendartions, [let me know.](mailto:contact@matthewmcateer.me).
