@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/matthewmcateer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://matthewmcateer.me
+  * I am matthewmcateer (https://keybase.io/matthewmcateer) on keybase.
+  * I have a public key with fingerprint 742A 699B 1E1E 1012 5ACF  C098 7C22 95E6 D161 7EF6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010149456b2d5e45f6c191fce8a1edf4a72932083de18cc1969c2b4acffcea0ca95d0a",
+      "fingerprint": "742a699b1e1e10125acfc0987c2295e6d1617ef6",
+      "host": "keybase.io",
+      "key_id": "7c2295e6d1617ef6",
+      "kid": "010149456b2d5e45f6c191fce8a1edf4a72932083de18cc1969c2b4acffcea0ca95d0a",
+      "uid": "235095ce03d01645f5aab1f6dded7d19",
+      "username": "matthewmcateer"
+    },
+    "service": {
+      "hostname": "matthewmcateer.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1561260756,
+  "expire_in": 157680000,
+  "prev": "5bd7cc35eb196851550c0d7fe0fb32f3c5202a670ea5e48dee9c88e070812d56",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJZSFVBGL63zbKFFoKiBTyUVFxt5pw7Z7loRUS2QBtlSctlzsx/9KT3
+3Nu5xy2TjDaFQoiIlpfMFqmwFSkis9KCLEqyBQRRM1ohCOolqOZIvfXYzMMw//99
+33zzzbSOHhxIDaaZK5+UPtjyIth+91RxYPOYr50Vkhnn5VKkQiqEgQWKOCS9aKHN
+pYiEMMJhI0xUU+YEwsRSGTawxUCnGLgVpppsKDLSFQ5YZ6KnGkw2w5RZAkMRowbh
+iEohybKdfHATru14QlYLy1Q1DBODmAjLRBAYMnSNybJBQOVYxRpYqiAWxJM+Q5gz
+aRIy7bioiU10wN4/8P/Zd/GAnKwQZBAGSOEIq0KOUGpiS+UcuMax4QOT4Do0BgId
+o55XAKUxRj0AV6oMSaJXYjPw4/Xv809cpqiFpIQb9+IsXiTaBZ6XiPhsrzzhw0vB
+jP4Ripq2w0WiglACbtKOO1IECyTzbF8ZExXLKtKIGpKgLGG7ELV9BNFUHYnhHwMl
+QpKYXGNMIWCKBHSCCUEMcc0CZJmKbCmMyEi8lIaAihR1DmAwXQekIR2LYP28k7DN
+iUuRMBE+ab7QTNr5DvWKXZAq77VsGhIIpgaGDR3kf7VA6oixfz/g+wUpv1Z92NuV
+tzTccqnsTN9Vb8eUrFHjsqc9HHK8zWq7tqYrsuDjzrSmme6E7eN3z1lX0ZjyzPmU
+0dkRGnnsw5OKhp7TkwJVy9bDmPszUruU25fHH2mdd3hFetvxEd/baza9zdu/NpSY
+iTrrWivz3g1PKWtcWl7fcqh7ffNz9Ud96bfZtWtqOvrPnTjf3J4j1U9XspcM+7Jo
+X93CrI0dwamx/oNWzR37bO/81xNTehtnvVk8NufGhaw9B27+XPwtOPnhpdw7hxp6
+5sZeIpf1ZTxtqJr2uiT9uXorPbe2fvWik5s3GMtfPTpldzddudibfbS5dbTeR2uf
+PX5RnXu9uieUscuY6mx9/Ln3dMFv5mFIqQ==
+=FvtN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/matthewmcateer
+
+==================================================================
