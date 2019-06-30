@@ -5,7 +5,7 @@ template: "post"
 draft: false
 slug: "/blog/private-machine-learning-explained/"
 img: "/media/webpack.png"
-category: "Web Development"
+category: "Machine Learning"
 tags:
   - "Private Machine Learning"
   - "Entrepreneurship"
