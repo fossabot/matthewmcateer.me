@@ -3,7 +3,7 @@ title: "Probabilistic Programming and Aging"
 date: "2019-01-13T12:00:00.000Z"
 template: "post"
 usesKatex: true
-draft: false
+draft: true
 slug: "/blog/probabilistic-programming-and-aging/"
 img: "/media/laptop-code.jpg"
 category: "Aging"
