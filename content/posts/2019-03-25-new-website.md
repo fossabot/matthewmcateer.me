@@ -5,7 +5,7 @@ template: "post"
 draft: false
 slug: "/blog/new-website/"
 img: "/media/xkcd-290.png"
-category: "Machine Learning"
+category: "Web Development"
 tags:
   - "Meta"
   - "Learning"
