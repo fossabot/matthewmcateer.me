@@ -2,7 +2,7 @@
 title: "Practical Causal Inference"
 date: "2018-11-17T12:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/blog/practical-causal-inference/"
 img: "/media/image-sizing-post/map-big.jpg"
 category: "Machine Learning"
