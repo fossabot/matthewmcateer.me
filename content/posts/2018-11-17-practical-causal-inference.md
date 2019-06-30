@@ -2,7 +2,7 @@
 title: "Practical Causal Inference"
 date: "2018-11-17T12:00:00.000Z"
 template: "post"
-draft: false
+draft: true
 slug: "/blog/practical-causal-inference/"
 img: "/media/image-sizing-post/map-big.jpg"
 category: "Machine Learning"
@@ -31,6 +31,11 @@ But the future of AI is replacing reasoning by association with causal reasoning
 
 [Judea Pearl](http://bayes.cs.ucla.edu/jp_home.html), who is credited with inventing bayesian networks, recently wrote [“The book of Why”](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X). In it, he divides causal reasoning into 3 layers:
 
+|             *Level (symbol)*             	|    *Typical Activity*    	|                         *Typical Questions*                         	|                                                                       *Examples*                                                                       	|
+|:----------------------------------------:	|:------------------------:	|:-------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------------------------------------------------:	|
+| Level 1: Association  $p(y|x)$           	| Seeing                   	| What is?  How would seeing $x$ change my belief in $y$?             	| What does a symptom tell me about a disease?  What does a survey tell us about the election results?                                                   	|
+| Level 2: Intervention  $p(y|do(x), z)$   	| Doing                    	| What if?  What if I do $x$?                                         	| What if I take aspirin, will my headache be cured?  What if we ban cigarettes?                                                                         	|
+| Level 3: Counterfactuals  $p(y_x|x’,y’)$ 	| Imagining, Retrospection 	| Why?  Was it $x$ that caused $y$?  What if I had acted differently? 	| Was it the aspirin that stopped my headache?  Would Kennedy be alive if Oswald didn’t shoot him?  What if I had not been smoking for the past 2 years? 	|
 
 Counterfactuals are the building blocks of scientific thinking, as well as legal and moral reasoning. Each of these has a syntactic signature that characterizes it. Associations are characterized by conditional probability $p(y|x)$. We can use bayesian networks, or any of the other deep learning models that support this, to come up with associations. At the interventional layer, we define the probability of event $y$ given that we intervene (Judea pearl calls this the $do()$ operator) and set $x$ to a different value and observe $z$. We can estimate this experimentally, or we can do this with analytic techniques like bayesian neural networks. At the Counterfactual level, we have the probability of event $y$ had $x$ been some value, given that we already observed $x=x’$ and $y=y’$. Judea Pearl’s book theorized about the need for a new type of mathematics (called “do calculus”) to formalize these computational counterfactuals. “The Book of Why” was a fantastic introduction to the concept of formalizing causal inference. I recommend it to anyone that wants a high-level understanding…
 
