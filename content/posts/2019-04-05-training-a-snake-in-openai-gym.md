@@ -3,14 +3,14 @@ title: "Training a Snake in OpenAI Gym"
 date: "2019-04-05T12:00:00.000Z"
 template: "post"
 usesKatex: true
-draft: false
+draft: true
 slug: "/blog/training-a-snake-in-openai-gym/"
 img: "/media/neural-network-post/network3.png"
 category: "Machine Learning"
 tags:
   - "Machine Learning"
   - "Artificial Intelligence"
-  - "Advice"
+  - "Tutorial"
 description: "A response to a low-level request for research"
 prev: "/blog/review-of-the-hive-global-leaders-program/"
 next: "/blog/journey-to-ml-part-2-skills-of-a-marketable-machine-learning-engineer/"
