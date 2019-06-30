@@ -15,3 +15,7 @@ description: "Important actuarial concepts and what you can do with them"
 prev: "/blog/bearcoin-a-protocol-implementation/"
 next: "/blog/journey-to-machine-learning-part-1-introductions-motivations-and-roadmap/"
 ---
+
+A long time ago I worked on a project called DeDay, which took in survivorship data and output the MLE models
+
+A lot has changed since then, so in the interest of pushing the field forward, here is a tutorial on how to use Tensorflow for model-fitting
