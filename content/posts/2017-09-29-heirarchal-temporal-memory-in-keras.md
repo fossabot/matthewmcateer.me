@@ -54,8 +54,8 @@ Projects like OpenWorm have attemtped to replicate entire neural netowkrs for si
 And if it is true that the behavior of neurons is the result of some sort of emegence of quantum-level phenomena, then saying HTMs are closer to biological neural networks than typical ANNs would be like saying the top of the Washington Monument is closer than the top of the Capitol building to the surface of Mercury.
 
 ![Yeah, we're pretty far away if there realy are quantum effects](https://d2r55xnwy6nx47.cloudfront.net/uploads/2016/11/QuantumBrain_1300.gif)
+<p style="text-align: center;">*Quantum Brain (credit goes to the talented [davidope](http://davidope.com/))*</p>
 
-Quantum Brain (credit goes to [davidope](http://davidope.com/))
 
 ### Update
 
