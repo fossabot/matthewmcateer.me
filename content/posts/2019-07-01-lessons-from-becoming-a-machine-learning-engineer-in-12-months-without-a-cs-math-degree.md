@@ -2,7 +2,7 @@
 title: "Lessons from becoming a Machine Learning Engineer in 12 months, without a CS or Math degree"
 date: "2019-07-01T12:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/blog/lessons-from-becoming-a-machine-learning-engineer-in-12-months-without-a-cs-math-degree/"
 img: "/media/image-sizing-post/map-big.jpg"
 category: "Machine Learning"
@@ -18,11 +18,11 @@ next: "/blog/what-the-heck-happened-to-social-media/"
 twitterEmbed: true
 ---
 
-Included: Learning Machine Learning from scratch, hardware options, finding mentorship, who’s important to know in the field, freelancing as a machine learning engineer, concepts that make you difficult to replace, preparing for interviews, interviewing with big silicon valley tech companies, adopting the best productivity habits, and a few other things.
+>Included: Learning Machine Learning from scratch, hardware options, finding mentorship, who’s important to know in the field, freelancing as a machine learning engineer, concepts that make you difficult to replace, preparing for interviews, interviewing with big silicon valley tech companies, adopting the best productivity habits, and a few other things.
 
-Credentials: I graduated with a degree in molecular biology and worked in biotech after college. Within a year of leaving that industry, I was working with the Tensorflow team at Google on probabilistic programming tools. I later joined a security startup as a machine learning engineer.
+>Credentials: I graduated with a degree in molecular biology and worked in biotech after college. Within a year of leaving that industry, I was working with the Tensorflow team at Google on probabilistic programming tools. I later joined a security startup as a machine learning engineer.
 
-Disclaimer: Much of this is based on my own experience, peppered with insights from friends of mine who have been in similar boats. Your experience might not be identical. The main value is giving you a roadmap of the space so you can navigate it if you have no idea what you’re doing. If you have your own methods for learning ML that are working better than the ones listed here (like, if you’re literally in school learning about this stuff), keep on using them.
+>Disclaimer: Much of this is based on my own experience, peppered with insights from friends of mine who have been in similar boats. Your experience might not be identical. The main value is giving you a roadmap of the space so you can navigate it if you have no idea what you’re doing. If you have your own methods for learning ML that are working better than the ones listed here (like, if you’re literally in school learning about this stuff), keep on using them.
 
 In a span of about one year year, I went from quitting biomedical research to becoming a paid Machine Learning Engineer, all without having a degree in CS or Math. I’ve worked on side-projects that have been shared with tens of thousands on Twitter, worked with startups in facial recognition and distributed apps, sold a side-project, and even worked with Google’s Tensorflow Team on new additions to Tensorflow. Again, this was all without having a computer science degree.
 
@@ -30,31 +30,31 @@ This post, while long, is a compilation of all the important concepts, tips, and
 
 Enjoy.
 
-Part 1: Introductions, Motivations, and Roadmap
+**Part 1: Introductions, Motivations, and Roadmap**
 
-Part 2: Skills of a (Marketable) Machine Learning Engineer
+**Part 2: Skills of a (Marketable) Machine Learning Engineer**
 
-Part 3: Immersion and Finding Mentors
+**Part 3: Immersion and Finding Mentors**
 
-Part 4: Software and Hardware Resources
+**Part 4: Software and Hardware Resources**
 
-Part 5: Reading Research Papers (and a few that everyone should know)
+**Part 5: Reading Research Papers (and a few that everyone should know)**
 
-Part 6: Groups and People you should be Familiar with
+**Part 6: Groups and People you should be Familiar with**
 
-Part 7: Problem-Solving Approaches and Workflows
+**Part 7: Problem-Solving Approaches and Workflows**
 
-Part 8: Building your portfolio
+**Part 8: Building your portfolio**
 
-Part 9: Freelancing as an ML developer
+**Part 9: Freelancing as an ML developer**
 
-Part 10: Interviewing for Full-time Machine Learning Engineer Positions
+**Part 10: Interviewing for Full-time Machine Learning Engineer Positions**
 
-Part 11: Career trajectory and future steps
+**Part 11: Career trajectory and future steps**
 
-Part 12: Habits for Improved Productivity & Learning
+**Part 12: Habits for Improved Productivity & Learning**
 
-Part 1: Introductions, Motivations, and Roadmap
+# Part 1: Introductions, Motivations, and Roadmap
 Introductions
 If you’ve been following the news at all, chances are you’ve seen the headlines about how much demand there is for machine learning talent. In the recent LinkedIn Economic Graph report, “Machine Learning Engineer” and “Data Scientist” were the two fastest growing jobs of 2018 (9.8x and 6.5x growth, respectively). Medium itself is rife with example projects, tutorials, reviews of software, and tales of interesting applications. Despite the apparent demand, there seem to be few resources on actually entering this field as an outsider, as compared the resources available for other areas of software engineering. That’s why I’m writing this mega-post: to serve as condensed resource for the lessons of my journey to becoming a Machine Learning Engineer from a non-CS background.
 
@@ -66,7 +66,7 @@ It’s true that many non-CS majors go into the field. However, I was not a decl
 Credit to Randall Munroe and XKCD (had a tough time deciding between this comic and this one)
 While I was slightly more focused on statistics and programming during my undergrad than most bio majors, this is still an unusual path compared to a physicist entering the field (as this lovely post from Nathan Yau’s FlowingData illustrates).
 
-Backstory
+### Backstory
 I don’t think it’s wise to focus too much on narratives (outside of preparing for interviews, which we will get to). There’s many ways I could spin a narrative for my first steps into the machine learning field, both heroic and anti-heroic, so here’s one of the more common ones I use:
 
 Since high school, I had an almost single-minded obsession with diseases of aging. A lot of my introduction to machine learning was during my undergraduate research in this area. This was in a lab that was fitting discrete fruit fly death data to continuous equations like gompertz and weibull distributions, as well as using image-tracking to measure the amounts of physical activity of said fruit flies. Outside of this research, I was working on projects like a Google Scholar scraper to expedite the search for papers for literature reviews. Machine learning seemed like just another useful tool at the time for applying to biomedical research. Like everyone else, I eventually realized that this was going to become much bigger, an integral technology of everyday life in the coming decade. I knew I had to get serious about becoming as skilled as I could in this area.
@@ -79,44 +79,46 @@ This, along with several other factors, made me realize that using the wet-lab a
 
 I decided that if I was going to make a large contribution to this, or any other field I decided to go into, the most productive approach would be working on the tools for augmenting and automating data analysis. At least for the near future, I had to focus on making sure my foundation in Machine Learning was solid before I could return my focus to specific cases like aging.
 
-“So…what exactly is this long-a** post about again?”
+### “So…what exactly is this long post about again?”
 There are plenty of listicles and video tutorials for specific machine learning techniques, but there isn’t quite the same level of career-guide-style support like there is for web or mobile developers. That’s why this is more than just compiling lists of resources I have turned to for studying. I also tried to document the best practices I’ve found for creating portfolio projects, finding both short-term and long-term work in the field, and keeping up with the rapidly-changing research landscape. I will also compile nuggets of wisdom from others I have interviewed who are further along this path than I am.
 
-The level of technical ability you need to show is not lowered, it’s even higher when you don’t have the educational background, but it’s totally possible.
-— Dario Amodei, PhD, Researcher at OpenAI, on entering the field without a doctorate in machine learning
+>The level of technical ability you need to show is not lowered, it’s even higher when you don’t have the educational background, but it’s totally possible.
+>— Dario Amodei, PhD, Researcher at OpenAI, on entering the field without a doctorate in machine learning
+
 Ultimately, I want whoever reads this to get a detailed map of the space, so if they decide to go down my path, they can get through the valley of the Dunning-Kruger effect much more quickly.
 
 
 In truth the actual Dunning-Kruger effect is a bit more noisy than this.
 With that in mind, we’ll start with a rough overview of the skills needed to master in order to become an (employable) machine learning engineer:
 
-Part 2: Skills of a (Marketable) Machine Learning Engineer
+# Part 2: Skills of a (Marketable) Machine Learning Engineer
 
 Becoming a machine learning engineer still isn’t quite as straightforward as becoming a web or mobile engineer, as we discussed in the previous section. This is despite all of the new programs geared toward machine learning both inside and outside of traditional schools. If you ask many people with the title of “Machine Learning Engineer” what they do, you’ll often get wildly different answers.
 
 The goal of this section is to help you put together the beginnings of a mental semantic tree (Khan Academy’s example of such a tree) for learning machine learning (à la Elon Musk’s now famous method). Based on my own experiences, as well as reaching out to hundreds of machine learning engineers in both academia and industry, here’s an overview of the soft skills, basic technical skills, and more specialized skills you’ll need.
 
-Soft Skills
+### Soft Skills
 We need to cover a few non-technical skills that you should keep in mind before diving into the deep end. Yes, machine learning is mainly math and computer science knowledge. However, you’ll most likely need to find ways of applying this to solve real problems.
 
-Learning new skills: The field is rapidly changing. Every month new neural network models come out that outperform previous architecture. GPU-manufacturers are in an arms race. 2017 saw just about every major tech giant release their own machine learning frameworks. There’s a lot to keep up with, but luckily the ability to quickly learn things is something you can improve on (Growth mindsets for the win!). Classes like Coursera Learning how to Learn are great for this. If you have Dyslexia, ADD, or anything similar, the Speechify app can offer a bit of a productivity boost (this is one app that I used a bunch to make as much use of my time reading and re-reading papers).
+**Learning new skills:** The field is rapidly changing. Every month new neural network models come out that outperform previous architecture. GPU-manufacturers are in an arms race. 2017 saw just about every major tech giant release their own machine learning frameworks. There’s a lot to keep up with, but luckily the ability to quickly learn things is something you can improve on (Growth mindsets for the win!). Classes like Coursera Learning how to Learn are great for this. If you have Dyslexia, ADD, or anything similar, the Speechify app can offer a bit of a productivity boost (this is one app that I used a bunch to make as much use of my time reading and re-reading papers).
 
-Muad’Dib learned rapidly because his first training was in how to learn. And the first lesson of all was the basic trust that he could learn. It’s shocking to find how many people do not believe they can learn, and how many more believe learning to be difficult. Muad’Dib knew that every experience carries its lesson.
-- Dune, by Frank Herbert
-Time-management: A lot of my friends have gone to Ivy League schools like Brown, Harvard, and MIT. Out of the ones that made it there and continued to succeed afterwards, it seemed that skill in time management was a much bigger factor in their success than any natural talent or innate intellect. The same pattern will likely apply to you. When it comes to a cognitively-demanding task like learning machine learning, RESIST THE URGE TO MULTI-TASK. Yes, at some point you may need to run model-trainings in parallel if you have the compute resources, but you should put your phone on airplane mode when studying and avoid doing multiple tasks at the same time. I cannot recommend highly enough Cal Newport’s book “Deep Work” (or his Study Hacks Blog). If you’re still in college or high school, Jessica Pointing’s Optimize Guide is also a great resource. I’ll go into more resources like this in the next post in this series.
+>Muad’Dib learned rapidly because his first training was in how to learn. And the first lesson of all was the basic trust that he could learn. It’s shocking to find how many people do not believe they can learn, and how many more believe learning to be difficult. Muad’Dib knew that every experience carries its lesson.
+>- Dune, by Frank Herbert
 
-Business/Domain knowledge: The most successful machine learning projects out there are going to be those that address real pain points. It will be up to you to make sure your project is not the machine learning equivalent of Juicero. In academia, the emphasis is more on the side of improving metrics of algorithms. In industry, the focus is all about making those improvements count towards solving customer or company problems. Beyond taking classes in entrepreneurship while you’re in school, there are plenty of classes online that can also help (Coursera has a pretty decent selection). If you want a more comprehensive overview, you can try the Smartly MBA. It’s creators impose an artificially low acceptance rate, but if you get in it’s free. At the very least, business or domain knowledge helps a lot with feature engineering (many of the top-ranking Kaggle teams often have at least one member whose role it is to focus on feature engineering).
+**Time-management:** A lot of my friends have gone to Ivy League schools like Brown, Harvard, and MIT. Out of the ones that made it there and continued to succeed afterwards, it seemed that skill in time management was a much bigger factor in their success than any natural talent or innate intellect. The same pattern will likely apply to you. When it comes to a cognitively-demanding task like learning machine learning, RESIST THE URGE TO MULTI-TASK. Yes, at some point you may need to run model-trainings in parallel if you have the compute resources, but you should put your phone on airplane mode when studying and avoid doing multiple tasks at the same time. I cannot recommend highly enough Cal Newport’s book “Deep Work” (or his Study Hacks Blog). If you’re still in college or high school, Jessica Pointing’s Optimize Guide is also a great resource. I’ll go into more resources like this in the next post in this series.
 
-Communication: You’ll need to explain ML concepts to people with little to no expertise in the field. Chances are you’ll need to work with a team of engineers, as well as many other teams. Oh, and you’ll need to get past the dreaded interviews eventually. Communication is going to make all of this much easier. If you’re still in school, I recommend taking at least one course in rhetoric, acting, or speech. If you’re out of school, I can personally attest to the usefulness of Toastmasters International.
+**Business/Domain knowledge:** The most successful machine learning projects out there are going to be those that address real pain points. It will be up to you to make sure your project is not the machine learning equivalent of Juicero. In academia, the emphasis is more on the side of improving metrics of algorithms. In industry, the focus is all about making those improvements count towards solving customer or company problems. Beyond taking classes in entrepreneurship while you’re in school, there are plenty of classes online that can also help (Coursera has a pretty decent selection). If you want a more comprehensive overview, you can try the Smartly MBA. It’s creators impose an artificially low acceptance rate, but if you get in it’s free. At the very least, business or domain knowledge helps a lot with feature engineering (many of the top-ranking Kaggle teams often have at least one member whose role it is to focus on feature engineering).
 
-Rapid Prototyping: Iterating on ideas as quickly as possible is mandatory for finding one that works. Throughout your learning process you should maximize the amount of new, useful, and actionable information you are getting. In machine learning, this applies to everything from picking the right model, to working on projects such as A/B testing. I had the pleasure of learning a lot about rapid prototyping from one of Tom Chi’s prototyping workshops (he’s the former Head of Experience at GoogleX, and he now has an online class version of his workshop). Udacity also has a great free class on rapid prototyping that I highly recommend.
+**Communication:** You’ll need to explain ML concepts to people with little to no expertise in the field. Chances are you’ll need to work with a team of engineers, as well as many other teams. Oh, and you’ll need to get past the dreaded interviews eventually. Communication is going to make all of this much easier. If you’re still in school, I recommend taking at least one course in rhetoric, acting, or speech. If you’re out of school, I can personally attest to the usefulness of Toastmasters International.
+
+**Rapid Prototyping:** Iterating on ideas as quickly as possible is mandatory for finding one that works. Throughout your learning process you should maximize the amount of new, useful, and actionable information you are getting. In machine learning, this applies to everything from picking the right model, to working on projects such as A/B testing. I had the pleasure of learning a lot about rapid prototyping from one of Tom Chi’s prototyping workshops (he’s the former Head of Experience at GoogleX, and he now has an online class version of his workshop). Udacity also has a great free class on rapid prototyping that I highly recommend.
 
 Okay, now that we’ve got the soft skills out of the way, let’s get to the technical checklist you were most likely looking for when you first clicked on this article.
 
-The Basic Technical Skills
-Python (at least intermediate level) — Python is the lingua franca of Machine Learning. You may have had exposure to Python even if you weren’t previously in a programming or CS-related field (it’s commonly used across the STEM fields and is easy to self-teach). However, it’s important to have a solid understanding of classes and data structures (this will be the main focus of most coding interviews). MITx’s Introduction to Computer Science is a great place to start, or fill in any gaps. In addition to intermediate Python, I also recommend familiarizing yourself with libraries like Scikit-learn, Tensorflow (or Keras if you’re a beginner), and PyTorch, as well as how to use Jupyter notebooks.
+### The Basic Technical Skills
+**Python (at least intermediate level) ** —  Python is the lingua franca of Machine Learning. You may have had exposure to Python even if you weren’t previously in a programming or CS-related field (it’s commonly used across the STEM fields and is easy to self-teach). However, it’s important to have a solid understanding of classes and data structures (this will be the main focus of most coding interviews). MITx’s Introduction to Computer Science is a great place to start, or fill in any gaps. In addition to intermediate Python, I also recommend familiarizing yourself with libraries like Scikit-learn, Tensorflow (or Keras if you’re a beginner), and PyTorch, as well as how to use Jupyter notebooks.
 
-C++ (at least intermediate level) — Sometimes Python won’t be enough. Often you’ll encounter projects that need to leverage hardware for speed improvements. Make sure you’re familiar with basic algorithms, as well as classes, memory management, and linking. If you also choose to do any machine learning involving Unity, knowing C++ will make learning C# much easier. At the very least, having decent knowledge of a statically-typed language like C++ will really help with interviews. Even if you’re mostly using Python, understanding C++ will make using performance-boosting Python libraries like Numba a lot easier. Learn C++ has been one of my favorite resources. I would also recommend Programming: Principles and Practice Using C++ by Bjarne Stroustrup.
+**C++ (at least intermediate level)**  —  Sometimes Python won’t be enough. Often you’ll encounter projects that need to leverage hardware for speed improvements. Make sure you’re familiar with basic algorithms, as well as classes, memory management, and linking. If you also choose to do any machine learning involving Unity, knowing C++ will make learning C# much easier. At the very least, having decent knowledge of a statically-typed language like C++ will really help with interviews. Even if you’re mostly using Python, understanding C++ will make using performance-boosting Python libraries like Numba a lot easier. Learn C++ has been one of my favorite resources. I would also recommend Programming: Principles and Practice Using C++ by Bjarne Stroustrup.
 
 Once you have the basics of either Python or C++ down, I would recommend checking out Leetcode or HackerRank for algorithm practice. Quickly solving basic algorithms is kind of like lifting weights. If you do a lot of manual labor (e.g., programming by day), you might not necessarily be lifting a lot of weights. But, if you can lift weights well, most people won’t doubt that you can do manual labor.
 
@@ -124,53 +126,54 @@ Once you have the basics of either Python or C++ down, I would recommend checkin
 I have yet to find reliable estimates on the market size projections for “AI-augmented weightlifting”, but something tells there’s at least one angel investor out there who would fund it just for fear of missing out.
 Onward to the math…
 
-Linear Algebra (at least basic level) — You’ll need to be intimately familiar with matrices, vectors, and matrix multiplication. Khan Academy has some good exercises for linear algebra. I also recommend 3blue1brown’s YouTube series Essence of Linear Algebra for getting a better intuition for linear algebra. As for textbooks, I would recommend Linear Algebra and Its Applications by Strang & Gilbert (for getting started), Applied Linear Algebra by B. Noble & J.W. Daniel (for applied linear algebra), and Linear Algebra, Graduate Texts in Mathematics by Werner H. Greub (for more advanced theoretical aspects).
+**Linear Algebra (at least basic level) ** —  You’ll need to be intimately familiar with matrices, vectors, and matrix multiplication. Khan Academy has some good exercises for linear algebra. I also recommend 3blue1brown’s YouTube series Essence of Linear Algebra for getting a better intuition for linear algebra. As for textbooks, I would recommend Linear Algebra and Its Applications by Strang & Gilbert (for getting started), Applied Linear Algebra by B. Noble & J.W. Daniel (for applied linear algebra), and Linear Algebra, Graduate Texts in Mathematics by Werner H. Greub (for more advanced theoretical aspects).
 
-Calculus (at least basic level) — If you have an understanding of derivatives and integrals, you should be in the clear. Otherwise even simpler concepts like gradient descent will elude you. If you need more practice, Khan Academy is likely the best source of online practice problems out there for differential, integral, and multivariable calculus. Differential equations are also helpful for machine learning.
+**Calculus (at least basic level)**  —  If you have an understanding of derivatives and integrals, you should be in the clear. Otherwise even simpler concepts like gradient descent will elude you. If you need more practice, Khan Academy is likely the best source of online practice problems out there for differential, integral, and multivariable calculus. Differential equations are also helpful for machine learning.
 
-Statistics (at least basic level) — Statistics is going to come up a lot. At least make sure you’re familiar with Gaussian distributions, means, and standard deviations. Every bit of statistical understanding beyond this helps. Some good resources on statistics can be found at, you probably guessed it, Khan Academy. Elements of Statistical Learning, by Hastie, Tibshirani, & Friedman, is also great if you’re looking for applications of statistics to machine learning.
+**Statistics (at least basic level)**  —  Statistics is going to come up a lot. At least make sure you’re familiar with Gaussian distributions, means, and standard deviations. Every bit of statistical understanding beyond this helps. Some good resources on statistics can be found at, you probably guessed it, Khan Academy. Elements of Statistical Learning, by Hastie, Tibshirani, & Friedman, is also great if you’re looking for applications of statistics to machine learning.
 
 
 Some machine learning engineers will laugh at this. Others will be offended. Both camps, however, will agree that statistics is very important to learn for this field.
-BONUS: Physics (at least basic level) — You might be in a situation where you’d like to apply machine learning techniques to systems that will interact with the real world. Having some knowledge of physics will take you very far, especially when it comes to understanding concepts like Nesterov momentum or energy-based models. For learning physics online, I would point to Physics for the 21st Century, MIT’s online physics courses, UC Berkeley’s Physics for Future Presidents, and Khan Academy. For textbooks, I would look at Frank Firk’s Essential Physics 1.
 
-BONUS: Numerical Analysis (at least basic level) — A lot of machine learning techniques out there are just fancy types of function approximation. These often get developed by theoretical mathematicians, and then get applied by people who don’t understand the theory at all. The result is that many developers might have a hard time finding the best technique for their problem. If they do find a technique, they might have trouble fine-tuning it to get the best results. Even a basic understanding of numerical analysis will give you a huge edge. I would seriously look into Deturk’s Lectures on Numerical Analysis from UPenn, which covers the important topics and also provides code examples.
+**BONUS: Physics (at least basic level)**  —  You might be in a situation where you’d like to apply machine learning techniques to systems that will interact with the real world. Having some knowledge of physics will take you very far, especially when it comes to understanding concepts like Nesterov momentum or energy-based models. For learning physics online, I would point to Physics for the 21st Century, MIT’s online physics courses, UC Berkeley’s Physics for Future Presidents, and Khan Academy. For textbooks, I would look at Frank Firk’s Essential Physics 1.
+
+**BONUS: Numerical Analysis (at least basic level)**  —  A lot of machine learning techniques out there are just fancy types of function approximation. These often get developed by theoretical mathematicians, and then get applied by people who don’t understand the theory at all. The result is that many developers might have a hard time finding the best technique for their problem. If they do find a technique, they might have trouble fine-tuning it to get the best results. Even a basic understanding of numerical analysis will give you a huge edge. I would seriously look into Deturk’s Lectures on Numerical Analysis from UPenn, which covers the important topics and also provides code examples.
 
 All this math might seem intimidating at first if you’ve been away from it for a while. Yes, machine learning is much more math-intensive than something like front-end development. Just like with any skill, getting better at Math is a matter of focused practice. There are plenty of tools you can use to get a more intuitive understanding of these concepts even if you’re out of school. In addition to Khan Academy, Brilliant.org is a great place to go for practicing concepts such as linear algebra, differential equations, and discrete mathematics.
 
 
 Before we go further, we need to make sure we’re on the same page that machine learning, deep learning, and artificial intelligence are not completely synonymous.
-Common non-neural network Machine Learning Concepts — You may have decided to go into machine learning because you saw a really cool neural network demonstration, or wanted to build an artificial general intelligence (AGI) someday. It’s important to know that there’s a lot more to machine learning than neural networks. Many algorithms like random forests, support vector machines (SVMs), and Naive Bayes Classifiers can yield better performance for your hardware on some tasks. For example, if you have an application where the priority is fast classification of new test data, and you don’t have a lot of training data at the start, an SVM might be the best approach for this. Even if you are using a neural network for your main training, you might use a clustering or dimensionality-reduction technique first to improve the accuracy. Definitely check out Andrew Ng’s Machine Learning, as well as the Scikit-learn documentation.
+**Common non-neural network Machine Learning Concepts ** —  You may have decided to go into machine learning because you saw a really cool neural network demonstration, or wanted to build an artificial general intelligence (AGI) someday. It’s important to know that there’s a lot more to machine learning than neural networks. Many algorithms like random forests, support vector machines (SVMs), and Naive Bayes Classifiers can yield better performance for your hardware on some tasks. For example, if you have an application where the priority is fast classification of new test data, and you don’t have a lot of training data at the start, an SVM might be the best approach for this. Even if you are using a neural network for your main training, you might use a clustering or dimensionality-reduction technique first to improve the accuracy. Definitely check out Andrew Ng’s Machine Learning, as well as the Scikit-learn documentation.
 
 
-There’s a lot you can do without neural networks.
+### There’s a lot you can do without neural networks.
 Common Neural Network Architectures — Of course, there are still good reasons for the surge in popularity of neural networks. Neural networks have been by far the most accurate way of approaching many problems, like translation, speech recognition, and image classification. Andrew Ng’s Machine Learning (and his more up-to-date Deep Learning specialization) are great starting points. Udacity’s Deep Learning is also a great resource that’s more focused on Python implementations.
 
 Bear in mind, these are mainly the skills you would need to meet the minimum requirements for any machine learning job. However, chances are you’ll be working on a very specific problem within Machine Learning. If you really want to add value, it will help to specialize in some way beyond the minimum qualifications.
 
-Specialized Skills and Subdisciplines
-Computer Vision — Out of all the disciplines out there, there are by far the most resources available for learning computer vision. Getting a convolutional neural network to get high accuracy on MNIST is the “hello world” of machine learning. This field appears to have the lowest barriers to entry, but of course this likely means you’ll face slightly more competition. A variant of Georgia Tech’s Introduction to Computer vision is available for free on Udacity. This is great if you supplement this course with O’Reilly Learning OpenCV and Richard Szeliski’s Computer Vision: Algorithms and Applications (he’s the founding director of the Computational Photography group at Facebook). I also recommend checking out the Kaggle kernels for Digit recognition, Dogs vs Cats classification, and Iceberg recognition.
+### Specialized Skills and Subdisciplines
+**Computer Vision ** —  Out of all the disciplines out there, there are by far the most resources available for learning computer vision. Getting a convolutional neural network to get high accuracy on MNIST is the “hello world” of machine learning. This field appears to have the lowest barriers to entry, but of course this likely means you’ll face slightly more competition. A variant of Georgia Tech’s Introduction to Computer vision is available for free on Udacity. This is great if you supplement this course with O’Reilly Learning OpenCV and Richard Szeliski’s Computer Vision: Algorithms and Applications (he’s the founding director of the Computational Photography group at Facebook). I also recommend checking out the Kaggle kernels for Digit recognition, Dogs vs Cats classification, and Iceberg recognition.
 
-Natural Language Processing (NLP) — Since it combines computer science and linguistics, there are a bunch of libraries (Gensim, NLTK) and techniques (word2vec, sentiment analysis, summarization) that are unique to NLP. The materials for Stanford’s CS224n: Natural Language Processing with Deep Learning class are readily available to non-Stanford students. I also recommend checking out the Kaggle kernels for the Quora Question Pairschallenge and Toxic Comment Classification Challenge.
+**Natural Language Processing (NLP)**  —  Since it combines computer science and linguistics, there are a bunch of libraries (Gensim, NLTK) and techniques (word2vec, sentiment analysis, summarization) that are unique to NLP. The materials for Stanford’s CS224n: Natural Language Processing with Deep Learning class are readily available to non-Stanford students. I also recommend checking out the Kaggle kernels for the Quora Question Pairschallenge and Toxic Comment Classification Challenge.
 
-Voice and Audio Processing — This field has frequent overlap with natural language processing. However, natural language processing can be applied to non-audio data like text. Voice and Audio analysis involves extracting useful information from the audio signals themselves. Being well versed in math will get you far in this one (you should at least be be familiar with concepts like fast Fourier transforms). Knowledge of music theory also helps. I recommend checking out the Kaggle kernels for the MLSP 2013 Bird Classification Challenge and TensorFlow Speech Recognition Challenge, as well as Google’s NSynth project.
+**Voice and Audio Processing** — This field has frequent overlap with natural language processing. However, natural language processing can be applied to non-audio data like text. Voice and Audio analysis involves extracting useful information from the audio signals themselves. Being well versed in math will get you far in this one (you should at least be be familiar with concepts like fast Fourier transforms). Knowledge of music theory also helps. I recommend checking out the Kaggle kernels for the MLSP 2013 Bird Classification Challenge and TensorFlow Speech Recognition Challenge, as well as Google’s NSynth project.
 
-Reinforcement Learning — Reinforcement learning has been a driver behind many of the most exciting developments in deep learning and artificial intelligence in 2017, from AlphaGo Zero to OpenAI’s Dota 2 bot to Boston Dynamics’s Backflipping Atlas. This is will be critical to understand if you want to go into robotics, Self-driving cars, or any other AI-related area. Georgia Tech has a great primer course on this available on Udacity. However, there are so many different applications, that I’ll need to write a more in-depth article later in this series.
+**Reinforcement Learning ** —  Reinforcement learning has been a driver behind many of the most exciting developments in deep learning and artificial intelligence in 2017, from AlphaGo Zero to OpenAI’s Dota 2 bot to Boston Dynamics’s Backflipping Atlas. This is will be critical to understand if you want to go into robotics, Self-driving cars, or any other AI-related area. Georgia Tech has a great primer course on this available on Udacity. However, there are so many different applications, that I’ll need to write a more in-depth article later in this series.
 
 
 I’m not sure how much this aligns with Ray Kurzweil’s predictions of when machines would outperform human parkour instructors. I‘m also not entirely certain Kurzweil’s ever made predictions about this specifically, but I really hope he’s at least given it thought.
 There are definitely more subdisciplines to ML than this. Some are larger and some have yet to reach maturity. Generative Adversarial Networks are one of these. While, there is definitely a lot of promise for their use in creative fields and drug discovery, they haven’t quite reached the same level of industry maturity as these other areas.
 
-BONUS: Automatic Machine Learning (Auto-ML) — Tuning networks with many different parameters can be a laborious process (in fact, the phrase “graduate student descent” refers to getting hordes of graduate students to tune a model over the course of months). Companies like Nutonian (bought by DataRobot) and H2O.ai have recognized a massive need for this. At the very least, knowing how to use techniques like grid search (like scikit-learn’s GridSearchCV)and random search will be helpful no matter your subdiscipline. Bonus points if you can implement techniques like bayesian optimization or genetic algorithms.
+**BONUS: Automatic Machine Learning (Auto-ML)** — Tuning networks with many different parameters can be a laborious process (in fact, the phrase “graduate student descent” refers to getting hordes of graduate students to tune a model over the course of months). Companies like Nutonian (bought by DataRobot) and H2O.ai have recognized a massive need for this. At the very least, knowing how to use techniques like grid search (like scikit-learn’s GridSearchCV)and random search will be helpful no matter your subdiscipline. Bonus points if you can implement techniques like bayesian optimization or genetic algorithms.
 
 
 The biggest well of meta memes, In case the mere presence of experts in Auto-ML wasn’t enough to convince you to follow them on Twitter…
-Conclusions
+### Conclusions
 With this overview of machine learning skills, you should hopefully have a better grasp on how the different parts of the field relate to one another. If you want to get a quick, high-level understanding of any of these technical skills, Siraj Raval’s YouTube channel and KDnuggets are good places to start.
 
 It’s not enough to just have this list of subjects in you head though. Certain approaches to studying this are more effective than others.
 
-Part 3: Immersion and Finding Mentors
+# Part 3: Immersion and Finding Mentors
 Self study can be tricky, even for those of us without any kind of attention deficit disorder. It’s especially important to note that not all self study is equal in quality. Take studying a language, for example. Many people have had the experience of learning a language for years in a classroom setting. When they go spend a few weeks or months in a country where that language is all that is spoken, they often describe themselves as learning much more quickly than in the classroom setting. This is often referred to as learning a language by immersion. This means that even the instructions for what you need to do with a language are in the language itself.
 
 While learning a subject like machine learning might be functionally different than learning another spoken language (you’re not going to be speaking in classes and functions, after all), the principle of surrounding yourself with a subject and filling as many hours of the day with it is important here. That is what we’re talking about when we talk about immersion with respect to machine learning. What Cal Newport might say is that the reason formal institutions often consistently result in higher quality is immersion for non-language subjects. People spend many hours per day in structured settings where it’s almost difficult NOT to study a particular subject. The ones that find more immersion (i.e., taking additional more advanced classes, spending more time studying the subject with others, involving themselves in original research efforts) are the ones that succeed more.
@@ -206,7 +209,7 @@ If you focus on making sure you get as much immersion as possible, and you are a
 Never forget the bottom right one. You will be doing a LOT of just that.
 There is one, last, minor detail to consider before you begin your learning journey…. you need an actual computer to program on.
 
-Part 4: Software and Hardware Resources
+# Part 4: Software and Hardware Resources
 Programming for machine learning often distinguishes itself from web programming by the fact that it can be much more demanding in terms of hardware. When I started out on my machine learning journey, I originally used a 3-year-old Windows laptop. For basic machine learning tutorials this may be adequate, but once you try spending 28 hours training a simple low-resolution GAN, hearing your CPU scream in agony the whole time, like me you will realize you need to expand your options.
 
 
@@ -284,7 +287,7 @@ Whichever setup you choose, whether it be mainly Laptop, Cloud-based, Desktop, o
 
 Of course, becoming a machine engineer is about more than just setting up your hardware/software environment correctly. Since the field is changing so much, you’re going to need to learn how to read research papers on the subject.
 
-Part 5: Reading Research Papers (and a few that everyone should know)
+# Part 5: Reading Research Papers (and a few that everyone should know)
 In order to have a proper understanding of machine learning, you need to get acquainted with the current research in the space. It’s not enough to agree with claims of what AI can do, just because it got enough hype on social media. If you have GPU resources, you need to know how to properly utilize them or else they’ll be useless. You need to learn to be critical and balanced in your assessment. This is what PhD students learn how to do, but luckily you can also learn how to do this.
 
 
@@ -304,15 +307,15 @@ If at any point you feel stuck or frustrated, just remember to not give up. pers
 
 As for which papers to start with, I would try applying the technique above to some of the classic papers in machine learning. A lot of the papers you read (especially the avalanche of GAN papers out there) will have many concepts from these. I’ve listed a few of the big ones by subject and included links to the papers.
 
-For Computer Vision, AlexNet (2012), ZF Net (2013), VGG Net (2014), GoogLeNet (2015), and Microsoft ResNet (2015) are the big ones
-For image segmentation, Region Based CNNs (R-CNN — 2013, Fast R-CNN — 2015, Faster R-CNN — 2015) and YOLO
-Generative Adversarial Networks (2014)
-Generating Image Descriptions (2014)
-Spatial Transformer Networks (2015)
+- For Computer Vision, AlexNet (2012), ZF Net (2013), VGG Net (2014), GoogLeNet (2015), and Microsoft ResNet (2015) are the big ones
+- For image segmentation, Region Based CNNs (R-CNN — 2013, Fast R-CNN — 2015, Faster R-CNN — 2015) and YOLO
+- Generative Adversarial Networks (2014)
+- Generating Image Descriptions (2014)
+- Spatial Transformer Networks (2015)
 
 These papers are a great starting point for a conceptual understanding of where these large, daunting, machine learning models come from. While this will take you very far in building projects and following the latest developments, it also helps to know who is creating these developments.
 
-Part 6: Groups and People you should be Familiar with
+# Part 6: Groups and People you should be Familiar with
 As I mentioned before, finding mentors and reading papers are important. However, it’s also worth paying attention to the work of specific researchers.
 
 Depending on which subfield you go into, following certain individuals might be more important than others, but generally speaking being familiar with these ones will reduce the risk of you getting into an awkward moment at NIPS. Since many of these groups are also the most heavily-connected, you can probably navigate the increasingly crowded machine learning research space by traversing a mental graph of who is connected to who, and through whom.
@@ -332,7 +335,7 @@ Again, I should stress that your map of the organizations and prominent research
 
 Speaking of figuring things out for yourself…
 
-Part 7: Problem-Solving Approaches and Workflows
+# Part 7: Problem-Solving Approaches and Workflows
 The ultimate goal behind reading many research papers, working on many projects, and understanding the works of top researchers is to better develop your own approaches. While the workflows of top researchers can be attributed at least partially to intuition from having seen so much, there are still some general patterns and steps you can take for undertaking a machine learning project. Many of these apply for everything from original research to developing models for freelance clients.
 
 Determine if Machine learning is actually necessary: It’s of course not as simple as throwing a neural network at everything. First off, you might want to make sure that for the problem you’re working on Machine learning will actually be an improvement over some other algorithm. You wouldn’t use a neural network to solve FizzBuzz, riiiiiiiight?
@@ -365,31 +368,31 @@ Reproducibility: This one is more a quality of workflows than problem-solving st
 Number of jupyter notebooks on github, with projections. Behold the most meta jupyter notebook.
 That was a bit of a mouthful. I encourage you to follow the links within there to learn more about the subjects. Once you have gotten the grasp of these different strategies and workflows, the inevitable question is what you should apply them to. If you’re reading this, your goal might be to enter into machine learning as a career. Whether you do this as a freelancer or a full-time engineer, you’re going to need some kind of track record of projects. That’s where the portfolio comes in.
 
-Part 8: Building your portfolio
+# Part 8: Building your portfolio
 When you’re transitioning into a new career as a machine learning engineer (or any kind of software-tangential career, not just ML), you may be faced with an all too common conundrum: you’re trying to get work to get experience, but you need experience before you can get the work to get experience. How does one solve this Catch-22? Simple: Portfolio projects.
 
 You often hear about portfolios being a thing that front-end developers or designers put together. It turns out this can be a crucial career-booster for Data Scientists and Machine Learning Engineers. Even if you’re not in the position of looking for work just yet, the goal of building a portfolio can be incredibly useful on its own for learning machine learning
 
-What NOT to include in your portfolio
+### What NOT to include in your portfolio
 Before we get into examples, it’s important to make it clear what should not be included in your ML portfolio. For the most part, you have a lot of flexibility when it comes to your portfolio. However, when it comes to projects that could result in your resume being thrown in the trash, there are 3 big ones that come to mind: Survival classification on the Titanic dataset. Handwritten digit classification on the MNIST dataset. Flower species classification using the iris dataset.
 
 
 The (A) Titanic Dataset, (B) MNIST Dataset, and ( C ) Iris datasets. Working with these is probably only one level above “Hello World” when it comes to machine learning.
 These datasets are used so heavily in introductory machine learning and data science courses, that having project based on these will probably hurt you more than help you. These are the types of projects that are already used in the example folders in many machine learning libraries, so there’s probably not that many original uses for them.
 
-Machine learning portfolio ideas
+## Machine learning portfolio ideas
 Now that we have that warning out of the way, here’s some suggestions of projects you CAN add to your machine learning portfolio.
 
-Kaggle Competitions
+### Kaggle Competitions
 
 Beyond Kaggle, there are other similar competitions out there. Halite is an AI programming competition created by Two-Sigma investing. This is somewhat more niche than Kaggle competitions, but it can be great if you want to test your skills in reinforcement learning problems. The only downside is that the competition is seasonal, and doesn’t have as many frequent competitions as Kaggle, but if you can get your bot high into the leaderboards when the next competition comes around, this can be a great addition to your portfolio.
 
 
 It also goes without saying that it’s usually much more impressive to anyone viewing your portfolio if you can use a dataset other than MNIST or CIFAR10.
-Implementations of Algorithms in Papers
+### Implementations of Algorithms in Papers
 Many of the newer machine learning algorithms out there are first reported in the form of scientific papers. Reproducing a paper, or reimplementing a paper in a novel setting or on an interesting dataset is a fantastic way to demonstrate your command of the material. Being able to code the usual ML algorithms is one thing, but being able to take a description of an algorithm and then turn it into a working project is a skill that’s far too low in supply. This could involve reimplementing the project in a different language (e.g., Python to C++), a different framework (e.g., if the code for the paper was written in tensorflow, try reimplementing in PyTorch or MXNet), or on different datasets (e.g., bigger datasets or less publically available datasets).
 
-Mobile Apps with Machine Learning (e.g., Not Hotdog Spinoffs)
+### Mobile Apps with Machine Learning (e.g., Not Hotdog Spinoffs)
 
 
 Before you start with the jokes about NSFW-content-tagging, that was the plotline of several episodes. HBO’s writers already beat you to the punch there.
@@ -397,7 +400,7 @@ If you’re looking for work in machine learning, chances are you won’t just b
 
 Of course, copying the exact app probably won’t be enough (after all, the joke was how poorly the app was prepared to handle anything other than hotdog and not hotdog. What additional features can you add? Can you increase the accuracy? Can you make it classify condiments as well? How big of a variety of foods can you get it to classify? Can you also get it to provide nutritional or allergy information?
 
-Hackathons and other competitions
+### Hackathons and other competitions
 
 In the absence of anything else, projects are often judged based on the impact they’ve had or the notoriety they’ve received. One of the easiest ways to get an impressive project in this regard is to put a hackathon project into your portfolio. I’ve taken this approach in the past with projects I’ve done as part of hackathons at MassChallenge or the MIT Policy Hackathon. Being a track or prize-winner can be a fantastic addition to your portfolio. The only downside is that hackathon projects (including the edge cases) are basically glorified demos. They are often terrible at standing up to much scrutiny or edge cases. You may want to polish you code a bit before adding it to your portfolio.
 
@@ -409,7 +412,7 @@ Don’t feel the need to restrict yourself to these ideas too much. You can also
 A screenshot from my site. Clickable links, images, and descriptions of what was so special about the projects I’ve built & contributed to all go really far.
 Above all else, it’s important to remember that a portfolio is always a work in process. It’s never something that you will 100%. If you wait until that point before you start applying to jobs and advertising your skills, you’ve waited too long.
 
-Part 9: Freelancing as an ML developer
+# Part 9: Freelancing as an ML developer
 There may be many areas of Machine Learning you might be interested in doing research in. When it comes to getting hands-on experience and immersion. Working on paid ML work is the next level up. It’s also incredibly easy to get started.
 
 For sites to do freelancing on, I recommend turning to Upwork or Freelancer. Freelancer requires payment for taking the skill tests on their site, so Upwork may be superior in that sense (at least, that’s why I chose it).
@@ -437,7 +440,7 @@ Over time, as you get new clients and grow your reputation, you will be able to 
 
 At some point, however, you may decide that you prefer something with more stability. This is a conclusion I eventually came to, even after working with a company like Google as a contractor (the very first machine learning contractor that the Tensorflow team ever hired). When I did, I decided to take the leap to interview for full-time machine learning engineer positions.
 
-Part 10: Interviewing for Full-time Machine Learning Engineer Positions
+# Part 10: Interviewing for Full-time Machine Learning Engineer Positions
 This is by far the most intense part of the machine learning journey. Interviewing with companies is often much more intense than interviewing with individual freelance clients (though most companies that hire freelancers will do pretty thorough interviews for contract work as well). If you’re interviewing with smaller startups, then they may be much more flexible with their hiring process (compared to companies like Facebook or Amazon, where an entire sub-industry has sprang up around teaching people how to interview for those). Regardless of who you’re interviewing with, just remember the following general steps.
 
 The first step is to to come up with a compelling “why”, as in what do you want. Take time to reflect on your own thoughts and motivations. This will allow you to focus on what you are looking for, and will probably help you with answering questions about what you’re looking for.
@@ -458,7 +461,7 @@ Once you do pass the interview, you will come to the negotiation phase. Don’t 
 
 Once you’re past the negotiation stage and you’ve accepted an offer, congratulations!
 
-Part 11: Career trajectory and future steps
+# Part 11: Career trajectory and future steps
 So you’ve now got an established career as a machine learning engineer. After months or years in this space, you then might begin to ask yourself,
 
 “What comes next?”
@@ -475,27 +478,30 @@ Whichever path you take, keep in mind that Machine learning is one of those area
 
 
 Credit goes to xsullo for this awesome image, originally made for Quanta Magazine (which often has interesting articles on research at the frontiers of Machine learning, among other subjects)
-Part 12: Habits for Improved Productivity & Learning
+
+# Part 12: Habits for Improved Productivity & Learning
 We’re not quite done here. It’s worth also listing some general habits that are important to keep while studying, even after you’ve attained whatever academic or professional status you were looking for. Learning machine learning is going to be a marathon, not a sprint. This applies whether you’re in or out of school.
 
-Get a full night’s sleep
+### Get a full night’s sleep
 If you follow any advice from this post, even if you ignore the machine learning checklist from earlier, follow this: make sure you get your sleep cycle in order. Becoming a machine learning engineer is as much about stamina as it is about speed & efficiency. Not only will your mood and cognitive abilities increase, but you’ll have a much better chance of staving off dementia and Alzheimer’s in the long term. as you maintain your sleep schedule even as your daily schedule gets more complex you’ll find that it will become much more easier and satisfying.
 
 
 I remember a friend of mine recommended Qualia to help with productivity. One of the recommendations was that I use it while getting a full night’s sleep. Using Qualia while also getting a full night’s sleep definitely yielded interesting results. However, it is unknown how much of this productivity is due to the Qualia, or is due to the Sleep. It is entirely possible that most if not all was due to sleep, and that this is more of a “Stone Soup” situation. Nonetheless, if you want to experiment with it in greater rigor than I had time to, go ahead.
 
-Stay away from Social Media
+### Stay away from Social Media
 This might be controversial, considering that so many machine learning developers and researchers are often on Twitter, but you should probably limit the amount of time you spend on sites like Facebook. Ask yourself this: “When was the last time any of the news articles shared in my feed impacted my life?” It quite possibly hasn’t been ever. If you’re worried about keeping in touch with friends and family members, chances are you can give the close ones to you other contact info like your phone number or email address. Those other connections that are effectively ghosts? You can reconnect with them later if you want. If you don’t want to fall into temptation, use a chrome extension to block your wall in Facebook (messenger might be a lot more helpful). Delete Snapchat if you have it (or if you haven’t deleted it already).
 
 Granted, this is not a universal approach. Twitter is often a useful feed, and often features many useful resources. Here are some of the people I am following, whom I highly recommend. Quora is also another maybe. Definitely take it in strides. If you can, spend more time answering questions related to deep learning rather than reading the 1001st motivational post from another 20-year-old self-proclaimed “millionaire entrepreneur” trying to sell you “5 secrets to becoming just like them” (a possible goal for you: getting a job at Quora and helping them cut down on spam posts).
 
 One of the best ways I’ve found to deal with the short-term social media withdrawal that came early was to replace it with something similar yet more in line with my long-term goals. Specifically, I replaced the time I used to spend on Facebook with time spent on Github, finding interesting developers and projects to follow, cool repos to fork, and working on. If you need some more time to fully wean yourself off of your Facebook feed, this (disclaimer: sample size of n=1, your results may vary).
 
-Eat a healthier diet
+### Eat a healthier diet
 Another important consideration for optimizing your learning is to maintain a healthy diet. If you’re subsisting on junk food, it’s going to catch up to you. The sugar rushes and sluggishness are going to hinder you in the long run (and in many cases, in the short-run as well). If you’re just eating nothing but the cheapest coffee and ramen that you can get, guess what, you’re going to get what you pay for (which is not going to be much at all).
 
 As a general rule, stay away from carbohydrates. There are many variants on this strategy (e.g., the increasingly popular ketogenic diet, the Bulletproof diet, etc.), but the idea is basically the same. If you can get your body to rely more on proteins and fats for energy than sugars, you will be less subject to the insulin spikes that can mess with your energy levels throughout the day, and take you out of the state of flow and concentration that helps you perform your best.
 
 Of course, completely going cold turkey on anything carbohydrate-related might not be as practical if your machine learning work. The temptation for stress-eating might be pretty strong. One compromise might be to go with the “Slow-carb” diet that Tim Ferriss famously described. This approach may sound great, but a word of warning: this approach works because you’re consuming massive amounts of fiber, i.e., whatever you eat on your cheat day, be prepared for it to come out the other end in roughly the same quantity…and probably all at once…the next day. If you’re mentally prepared for that, go right ahead.
+
+------------------------
 
 If you’ve read this far, thank you so much for checking out this guide. I hope you have found this useful. This is a collection of insights from my first year in this space, and I’m sure I might have better and more useful information a year from now. Don’t hesitate leave constructive criticism and any other feedback. Feel free to hit that applause button 50 times.
