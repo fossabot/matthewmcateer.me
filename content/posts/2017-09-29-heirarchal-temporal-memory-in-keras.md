@@ -2,7 +2,7 @@
 title: "Heirarchal Temporal Memory (in Keras)"
 date: "2017-09-29T12:00:00.000Z"
 template: "post"
-draft: true
+draft: false
 slug: "/blog/heirarchal-temporal-memory-in-keras/"
 img: "/media/image-sizing-post/map-big.jpg"
 category: "Machine Learning"
@@ -16,9 +16,7 @@ prev: "/blog/journey-to-machine-learning-part-1-introductions-motivations-and-ro
 next: "/blog/what-the-heck-happened-to-social-media/"
 twitterEmbed: true
 ---
-Hierarchal Temporal Memory is a theoretical framework developed by Numenta
-
-https://colab.research.google.com/drive/1-ueHB5yN_bnTWSGIgl-CwMSSCB_4Q8Vj
+Hierarchal Temporal Memory is a theoretical framework developed by Numenta.
 
 Let's detail how we would actually create one of these networks:
 
@@ -52,3 +50,14 @@ So what does this mean? Does this mean that we can model the entire brain using 
 Not so fast, it's not quite that simple...
 
 Projects like OpenWorm have attemtped to replicate entire neural netowkrs for simple model organisms like C. elegans worms. One of the issues is that the individual dynamics of individual neurons themselves are not fully understood yet. Some researchers have even proposed modelling indivisual neurons with ODEs and neural netowrks of their own
+
+And if it is true that the behavior of neurons is the result of some sort of emegence of quantum-level phenomena, then saying HTMs are closer to biological neural networks than typical ANNs would be like saying the top of the Washington Monument is closer than the top of the Capitol building to the surface of Mercury.
+
+![Yeah, we're pretty far away if there realy are quantum effects](https://d2r55xnwy6nx47.cloudfront.net/uploads/2016/11/QuantumBrain_1300.gif)
+
+Quantum Brain (credit goes to [davidope](http://davidope.com/))
+
+### Update
+
+You can now run the code described above in this wonderful new tool called Google Colab. You can basically run JuPyter notebooks in-browser. You can explore the code for yourself [in this notebook](
+https://colab.research.google.com/drive/1-ueHB5yN_bnTWSGIgl-CwMSSCB_4Q8Vj).
